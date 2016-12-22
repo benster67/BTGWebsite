@@ -148,7 +148,29 @@
   <h1 style="text-align: center;">
    Ben's Tech Garage
    </h1>
-   <!--content goes here-->
+   <div class="container">
+           <h1>Blog Application</h1>
+         <!-- For creating new posts -->
+         <form id="blogForm" class="col-xs-12 col-sm-12 col-md-6">
+               <div class="postTitle form-group">
+                   <label for="postTitle">Post Title</label>
+                   <input type="text" class="form-control" name="postTitle" id="postTitle" />
+               </div>
+               <div class="postBody form-group">
+                   <label for="postBody">Post Body</label>
+                   <textarea class="form-control" name="postBody" id="postBody"></textarea>
+               </div>
+               <button type="button" class="btn btn-default">Save</button>
+           </form>
+           <div id="feed" class="col-xs-12 col-sm-12 col-md-6">
+               <div data-post_id="" class="post panel panel-default col-xs-12 col-sm-12 col-md-10 col-md-offset-1 post-container">
+         <div class="panel-heading">
+                     <div class="panel-title post-title">Test Title<span class="removeIcon glyphicon glyphicon-remove pull-right"></span></div>
+                 </div>
+                 <div class="panel-body post-body">Test Body</div>
+             </div>
+           </div>
+       </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
    <script src="https://www.gstatic.com/firebasejs/3.0.5/firebase.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
