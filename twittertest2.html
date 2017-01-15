@@ -152,10 +152,50 @@
 </nav>
 <span style="color:red">
   <h1 style="text-align: center;">
-   PAGE TITLE HERE
+  TWITTER TEST
    </h1>
-   <!--content goes here-->
+   <a class="twitter-timeline" style="text-align: left;"
+ href="https://twitter.com/benster67"
+ data-width="500"
+ data-height="900">
+Tweets by @benster67
+</a>
+   <div class="slider" style="text-align: center;">
+     <div class="slide-viewer" style="text-align: center;">
+       <div class="slide-group" style="text-align: center;">
+         <div class="slide slide-1" style="text-align: center;">
+           <iframe width="800" height="450" src="https://www.youtube.com/embed/iQzk9F5R-GQ" frameborder="0" allowfullscreen></iframe>
+         </div>
+         <div class="slide slide-2" style="text-align: center;">
+         <iframe width="800" height="450" src="https://www.youtube.com/embed/fh7Ql4lt2b4" frameborder="0" allowfullscreen></iframe>
+         </div>
+         <div class="slide slide-3" style="text-align: center;">
+           <iframe width="800" height="450" src="https://www.youtube.com/embed/ocA74hLiVvQ" frameborder="0" allowfullscreen></iframe>
+         </div>
+         <div class="slide slide-4" style="text-align: center;">
+           <iframe width="800" height="450" src="https://www.youtube.com/embed/qAenxf4SRFE" frameborder="0" allowfullscreen></iframe>
+         </div>
+       </div>
+     </div>
+     <div class="slide-buttons" position: "center"></div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   <script src = "imageslider.js"></script>
+   <script>window.twttr = (function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0],
+   t = window.twttr || {};
+ if (d.getElementById(id)) return t;
+ js = d.createElement(s);
+ js.id = id;
+ js.src = "https://platform.twitter.com/widgets.js";
+ fjs.parentNode.insertBefore(js, fjs);
+
+ t._e = [];
+ t.ready = function(f) {
+   t._e.push(f);
+ };
+
+ return t;
+}(document, "script", "twitter-wjs"));</script>
    </body>
    <html>
